@@ -239,8 +239,8 @@ print (time.time() - start)
 
 ```
 
-**Result**：
- ![](https://ws1.sinaimg.cn/large/006tNc79gy1fh5jyqrvukj30e80e8nas.jpg)  
+**Result**：  
+ ![](https://ws1.sinaimg.cn/large/006tNc79gy1fh5jyqrvukj30e80e8nas.jpg)    
 **origin_img**  
 **水印为图像的场景:**  
 ```
@@ -264,9 +264,9 @@ python watermark.py --opt embedding_word --origin origin.png --watermark_word 'l
 python watermark.py --opt extracting --origin origin.png --embedding embedding_word.jpg --extracting extracting.jpg --image_segments_num 2
  ```
 **watermark_word:** lzh3lzh3 (加2x2个水印)  
-![](https://ws2.sinaimg.cn/large/006tNc79ly1fh7ygx31bkj30e80e8wh5.jpg)
+![](https://ws2.sinaimg.cn/large/006tNc79ly1fh7ygx31bkj30e80e8wh5.jpg)  
 **embedding_img**  
-![](https://ws1.sinaimg.cn/large/006tNc79ly1fh7yhowzvpj30e80e8jvx.jpg)
+![](https://ws1.sinaimg.cn/large/006tNc79ly1fh7yhowzvpj30e80e8jvx.jpg)  
 **extracting_img**  
 
 
