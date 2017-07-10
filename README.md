@@ -240,7 +240,7 @@ print (time.time() - start)
 ```
 
 **Result**：  
- ![](https://ws1.sinaimg.cn/large/006tNc79gy1fh5jyqrvukj30e80e8nas.jpg)    
+ ![](https://camo.githubusercontent.com/91dff835a5169f3346f9c2c1c39eab8afacffcd3/68747470733a2f2f7773322e73696e61696d672e636e2f6c617267652f303036744e6337396c79316668377967783331626b6a333065383065387768352e6a7067)    
 **origin_img**  
 **水印为图像的场景:**  
 ```
