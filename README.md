@@ -1,4 +1,5 @@
 
+
 [TOC]
 
 
@@ -236,10 +237,8 @@ elif args.opt == 'extracting':
 
 print (time.time() - start)
 
-
-
-
 ```
+
 **Result**：
  ![](https://ws1.sinaimg.cn/large/006tNc79gy1fh5jyqrvukj30e80e8nas.jpg)  
 **origin_img**  
@@ -263,7 +262,7 @@ python watermark.py --opt extracting --origin origin.png --embedding embedding.j
 python watermark.py --opt embedding_word --origin origin.png --watermark_word 'lzh3lzh3' --embedding embedding_word.jpg --image_segments_num 2
 解水印：
 python watermark.py --opt extracting --origin origin.png --embedding embedding_word.jpg --extracting extracting.jpg --image_segments_num 2
-```
+ ```
 **watermark_word:** lzh3lzh3 (加2x2个水印)  
 ![](https://ws2.sinaimg.cn/large/006tNc79ly1fh7ygx31bkj30e80e8wh5.jpg)
 **embedding_img**  
@@ -272,5 +271,4 @@ python watermark.py --opt extracting --origin origin.png --embedding embedding_w
 
 
 
-···
 
